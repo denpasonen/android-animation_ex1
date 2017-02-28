@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saki.animationex">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:label="@string/app_name" android:name=".FadeInActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".FadeOutActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".CrossfadeActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".BlinkActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".ZoomInActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".ZoomOutActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".RotateActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".MoveActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".SlideUpActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".SlideDownActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".BounceActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".SequentialActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".TogetherActivity"/>
+
+    </application>
+
+</manifest>
